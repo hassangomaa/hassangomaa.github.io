@@ -3,13 +3,64 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hassan Gomaa's Portfolio</title>
+
+    <!-- Primary Meta Tags -->
+    <title>Hassan Gomaa — Senior Software Engineer | Tech Lead | FinTech & RegTech</title>
+    <meta name="title" content="Hassan Gomaa — Senior Software Engineer | Tech Lead | FinTech & RegTech" />
+    <meta name="description" content="Hassan Gomaa is a Senior Back-End Software Engineer and Tech Lead with 4+ years of experience building mission-critical FinTech platforms, RegTech compliance systems, and distributed microservices." />
+    <meta name="keywords" content="Hassan Gomaa, Senior Software Engineer, Tech Lead, FinTech, RegTech, Back-End Developer, Java Spring Boot, Python Django, PHP Laravel, NestJS, Microservices, Distributed Systems, Cairo, Egypt" />
+    <meta name="author" content="Hassan Gomaa" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://hassangomaa.github.io/" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://hassangomaa.github.io/" />
+    <meta property="og:title" content="Hassan Gomaa — Senior Software Engineer | Tech Lead | FinTech & RegTech" />
+    <meta property="og:description" content="Senior Back-End Software Engineer & Tech Lead with 4+ years building mission-critical FinTech platforms, RegTech compliance systems, and distributed microservices." />
+    <meta property="og:site_name" content="Hassan Gomaa Portfolio" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Hassan Gomaa — Senior Software Engineer | Tech Lead | FinTech & RegTech" />
+    <meta name="twitter:description" content="Senior Back-End Software Engineer & Tech Lead with 4+ years building mission-critical FinTech platforms, RegTech compliance systems, and distributed microservices." />
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Hassan Gomaa",
+      "jobTitle": "Senior Back-End Software Engineer & Tech Lead",
+      "description": "Senior Back-End Software Engineer with 4+ years of experience building mission-critical FinTech platforms, RegTech compliance systems, and distributed microservices.",
+      "url": "https://hassangomaa.github.io/",
+      "email": "HassanGomaa974@gmail.com",
+      "telephone": "+201277785111",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Cairo",
+        "addressCountry": "EG"
+      },
+      "alumniOf": {
+        "@type": "CollegeOrUniversity",
+        "name": "Helwan University",
+        "department": "Faculty of Computer and Artificial Intelligence"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/in/hassangomaaeng/",
+        "https://github.com/hassangomaa",
+        "https://hassan-gomaa-eng.vercel.app/"
+      ],
+      "knowsAbout": ["Java Spring Boot", "Python Django", "FastAPI", "PHP Laravel", "Node.js NestJS", "Microservices", "FinTech", "RegTech", "Distributed Systems", "Apache Kafka", "Kubernetes", "Docker"]
+    }
+    </script>
+
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
     />
     <style>
-      /* __Additional custom styles can be added here__ */
       .navbar-brand {
         font-weight: bold;
         font-size: 1.5rem;
@@ -40,10 +91,20 @@
         text-align: center;
         padding: 1rem 0;
       }
+
+      .skill-badge {
+        display: inline-block;
+        background: #f8f9fa;
+        border: 1px solid #dee2e6;
+        border-radius: 0.375rem;
+        padding: 0.25rem 0.75rem;
+        margin: 0.25rem;
+        font-size: 0.875rem;
+      }
     </style>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Main navigation">
       <div class="container">
         <a class="navbar-brand" href="#">Hassan Gomaa</a>
         <button
@@ -69,7 +130,13 @@
               <a class="nav-link" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link" href="#certifications">Certifications</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://hassan-gomaa-eng.vercel.app/" target="_blank" rel="noopener noreferrer">Portfolio</a>
             </li>
           </ul>
         </div>
@@ -78,124 +145,108 @@
 
     <header class="bg-dark text-white py-5">
       <div class="container text-center">
-        <h1>Welcome to my Portfolio</h1>
+        <h1>Hassan Gomaa</h1>
         <p class="lead">
-          I am Hassan Gomaa, a Backend Developer and Cyber Security enthusiast.
+          FinTech | Tech Lead | Senior Software Engineer | Back-End Developer | Scalable Distributed Systems
+        </p>
+        <p class="mt-3">
+          <a href="https://www.linkedin.com/in/hassangomaaeng/" target="_blank" rel="noopener noreferrer" class="btn btn-outline-light btn-sm me-2">LinkedIn</a>
+          <a href="https://github.com/hassangomaa" target="_blank" rel="noopener noreferrer" class="btn btn-outline-light btn-sm me-2">GitHub</a>
+          <a href="https://hassan-gomaa-eng.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn btn-outline-light btn-sm">Full Portfolio</a>
         </p>
       </div>
     </header>
 
+    <main>
     <section id="skills" class="py-5">
       <div class="container">
-        <h2 class="mb-4">Skills</h2>
+        <h2 class="mb-4">Technical Skills</h2>
         <p>
-          MySQL, PHP, Laravel, TypeScript, Node JS, Nest JS, C/C++ Programming,
-          API Restful, HTML 5, CSS 3, Bootstrap, JQuery, Python, Git, GitHub,
-          Java, Photoshop, Web Security, Network Security, Cryptography, Linux &
-          Windows Administration, Agile Jira Software
+          <span class="skill-badge">Java / Spring Boot</span>
+          <span class="skill-badge">Python / Django / FastAPI</span>
+          <span class="skill-badge">PHP / Laravel</span>
+          <span class="skill-badge">Node.js / NestJS / Express</span>
+          <span class="skill-badge">TypeScript</span>
+          <span class="skill-badge">PostgreSQL</span>
+          <span class="skill-badge">MySQL</span>
+          <span class="skill-badge">MongoDB</span>
+          <span class="skill-badge">Redis</span>
+          <span class="skill-badge">Apache Kafka</span>
+          <span class="skill-badge">RabbitMQ</span>
+          <span class="skill-badge">GraphQL / Hasura</span>
+          <span class="skill-badge">Docker</span>
+          <span class="skill-badge">Kubernetes</span>
+          <span class="skill-badge">AWS</span>
+          <span class="skill-badge">Google Cloud</span>
+          <span class="skill-badge">Grafana / Prometheus</span>
+          <span class="skill-badge">CI/CD (GitHub Actions, GitLab CI)</span>
+          <span class="skill-badge">Microservices Architecture</span>
+          <span class="skill-badge">CQRS / Saga / Event Sourcing</span>
+          <span class="skill-badge">RESTful APIs</span>
+          <span class="skill-badge">WebSocket</span>
+          <span class="skill-badge">OAuth2 / JWT</span>
+          <span class="skill-badge">PCI-DSS / KYC/AML</span>
+          <span class="skill-badge">Git</span>
+          <span class="skill-badge">ReactJS</span>
+          <span class="skill-badge">TailwindCSS</span>
+          <span class="skill-badge">Agile / Scrum / Jira</span>
         </p>
       </div>
     </section>
 
     <section id="experiences" class="bg-light py-5">
       <div class="container">
-        <h2 class="mb-4">Experience</h2>
+        <h2 class="mb-4">Professional Experience</h2>
         <ul class="list-group">
           <li class="list-group-item">
-            <h5>Back End Developer at Cord Digital</h5>
-            <p class="mb-2">March 2023 - Present</p>
+            <h5>Senior Software Engineer — ESNAD (Eon Technology), Egypt</h5>
+            <p class="mb-2 text-muted">Jan 2025 – Present</p>
             <ul>
-              <li>
-                Develop & debug APIs and full-stack apps using PHP Laravel,
-                CSS/HTML (Bootstrap), JS (jQuery/Ajax).
-              </li>
-              <li>
-                Configure & deploy remote servers for smooth app functioning.
-              </li>
-              <li>Analyze & optimize SEO structure for improved visibility.</li>
-              <li>
-                Collaborate with front-end devs/designers for seamless
-                integration.
-              </li>
-              <li>
-                Prioritize clean code structure & optimized performance for
-                scalability.
-              </li>
-              <li>
-                Conduct regular testing & debugging for high-quality code.
-              </li>
+              <li>Leading back-end development of <strong>Sanad360</strong> — a CMA/AML-compliant RegTech platform with client verification, risk scoring, and watchlist screening across 12+ microservices.</li>
+              <li>Developing <strong>Tarh</strong> — a CMA-licensed Shariah-compliant investment platform with Saga-based distributed transaction orchestration and real-time portfolio tracking.</li>
+              <li>Architected Kafka-based event pipeline for real-time transaction monitoring with Outbox Pattern for reliable event publishing across microservices.</li>
+              <li>Implemented Saga Orchestrator for distributed transactions across payment, compliance, and notification services with idempotent handlers and DLQ processing.</li>
+              <li>Set up Grafana dashboards with Prometheus for real-time monitoring of API latency, transaction throughput, and compliance processing.</li>
             </ul>
           </li>
           <li class="list-group-item">
-            <h5>Web Developer at DLT-Software</h5>
-            <p class="mb-2">January 2023 - February 2023</p>
+            <h5>Technical Lead — Salad Bar Trading Company, KSA</h5>
+            <p class="mb-2 text-muted">Aug 2024 – Jan 2025 · 6 mos</p>
             <ul>
-              <li>
-                Design & develop optimized back-end projects using PHP Laravel &
-                HTML5/CSS3/JS.
-              </li>
-              <li>
-                Implement payment gateway integration & deploy to production
-                servers.
-              </li>
-              <li>
-                Maintain/update PHP/Laravel/front-end projects & create/manage
-                APIs for mobile apps.
-              </li>
-              <li>
-                Prioritize clean code structure & best practices for scalability
-                & maintainability.
-              </li>
+              <li>Led back-end development and system integrations for SaladBar vending machines, Chinese portals, and mobile apps using PHP Laravel and Tailwind CSS.</li>
+              <li>Managed tasks and team collaboration in Asana, ensuring smooth rollouts and handling complex requirements.</li>
+              <li>Deployed systems on Google Cloud VPS, prioritizing scalability, security, and performance.</li>
+              <li>Integrated Odoo ERP for inventory management, subscription billing, and daily operations with Docker and 24/7 uptime.</li>
             </ul>
           </li>
-          <!-- Add more work experiences -->
           <li class="list-group-item">
-            <h5>Freelancer Full Stack developer</h5>
-            <p class="mb-2">Jan 2022 - Present</p>
+            <h5>Software Engineer — Misraj Technology, KSA</h5>
+            <p class="mb-2 text-muted">Aug 2023 – Dec 2024 · 1 yr 5 mos</p>
             <ul>
-              <li>
-                Developing many projects using PHP, MySQL, Bootstrap, and
-                Laravel framework.
-              </li>
-              <!-- Add more responsibilities or details as needed -->
+              <li>Spearheaded projects from database design to implementation using PostgreSQL, Hasura, and FusionAuth.</li>
+              <li>Managed local, dev, staging, and production environments, developing GraphQL APIs with authentication and CRUD operations.</li>
+              <li>Facilitated daily stand-up meetings, communicated frontend needs, and integrated YouTube live stream and Google Firebase for notifications.</li>
+              <li>Built WebSocket solutions for real-time communication and collaborated with DevOps on deployment.</li>
+              <li>Handled Hasura events and developed endpoints using NestJS and FastAPI, incorporating FusionAuth for GraphQL authentication.</li>
             </ul>
           </li>
-
           <li class="list-group-item">
-            <h5>Back End Engineer at Orange Digital Center</h5>
-            <p class="mb-2">Oct 2022 - Dec 2022</p>
+            <h5>Back End Engineer — Orange Digital Center, Egypt</h5>
+            <p class="mb-2 text-muted">Aug 2022 – Jul 2023 · 1 yr</p>
             <ul>
-              <li>
-                Responsible for performing CRUD Operations on REST APIs using
-                TypeScript and NestJs framework.
-              </li>
-              <!-- Add more responsibilities or details as needed -->
+              <li>Responsible for CRUD RESTful APIs, code review, maintaining and debugging using Node.js, TypeScript, and NestJS.</li>
+              <li>Provided fast and secure code with OAuth2/JWT authentication and implemented security mitigations for technical and logical vulnerabilities.</li>
+              <li>Completed Professional Agile Scrum Master training (PASM) — covering Agile methodologies, Scrum theory, artifacts, and Jira.</li>
             </ul>
           </li>
-
           <li class="list-group-item">
-            <h5>
-              Google Developer Student Club (GDSC) Helwan University Branch
-            </h5>
-            <p class="mb-2">Nov 2021 - June 2022</p>
+            <h5>Software Engineer — Freelance, Egypt</h5>
+            <p class="mb-2 text-muted">Jan 2022 – Present · 4 yrs 5 mos</p>
             <ul>
-              <li>
-                Technical core team member – web development department PHP
-                Laravel.
-              </li>
-              <!-- Add more responsibilities or details as needed -->
-            </ul>
-          </li>
-
-          <li class="list-group-item">
-            <h5>IEEE Helwan University Branch</h5>
-            <p class="mb-2">Feb 2020 - Oct 2021</p>
-            <ul>
-              <li>
-                Computer science team member - software development department
-                JAVA Programming.
-              </li>
-              <!-- Add more responsibilities or details as needed -->
+              <li>Full Stack Developer using PHP Laravel, Bootstrap framework &amp; Ajax; developing web sites from scratch with PHP Native, RESTful API service &amp; MVC.</li>
+              <li>Features Update, Code Review &amp; Debugging; Security Mitigations and Risk Management for all kinds of Technical and Logical Vulnerabilities.</li>
+              <li>Web Server Configuration and deployment; Led teams to develop feature-rich applications, integrating payments, shipping, and APIs.</li>
+              <li>Oversaw end-to-end development, from analysis to deployment on Google Cloud, AWS, and Azure.</li>
             </ul>
           </li>
         </ul>
@@ -204,85 +255,207 @@
 
     <section id="projects" class="py-5">
       <div class="container">
-        <h2 class="mb-4">Projects</h2>
+        <h2 class="mb-4">Key Projects</h2>
         <div class="row">
-          <div class="col-lg-4">
-            <div class="card mb-4">
+          <div class="col-lg-4 col-md-6">
+            <div class="card mb-4 h-100">
               <div class="card-body">
-                <h5 class="card-title">Umbrella-Egypt</h5>
+                <h5 class="card-title">Sanad360</h5>
                 <p class="card-text">
-                  An E-Commerce web and mobile app with online payment options
-                  such as Paymob and Fawry. The app utilizes a map API to
-                  calculate the time and cost for delivering customer products.
+                  A CMA/AML-compliant RegTech platform for client verification, risk scoring, and watchlist screening. Built with Java Spring Boot / Python Django microservices, Kafka event pipeline, Saga Orchestrator, and Grafana monitoring across 12+ microservices.
                 </p>
-                <a href="https://umbrella-egypt.com" class="btn btn-primary"
-                  >View Project</a
-                >
+                <a href="https://esnad.io/" class="btn btn-primary" target="_blank" rel="noopener noreferrer">View Project</a>
               </div>
             </div>
           </div>
-          <div class="col-lg-4">
-            <div class="card mb-4">
+          <div class="col-lg-4 col-md-6">
+            <div class="card mb-4 h-100">
               <div class="card-body">
-                <h5 class="card-title">LMS.elingua</h5>
+                <h5 class="card-title">Tarh</h5>
                 <p class="card-text">
-                  Learning Management System app as well as an online course
-                  system with interactive content. Technologies used: Laravel,
-                  MySQL, API Restful, Bootstrap.
+                  A CMA-licensed Shariah-compliant investment platform with real-time portfolio tracking, Saga-based payment orchestration, and Redis caching. Built with Spring Boot / Django microservices and distributed transaction patterns.
                 </p>
-                <a href="#" class="btn btn-primary">View Project</a>
+                <a href="https://esnad.io/" class="btn btn-primary" target="_blank" rel="noopener noreferrer">View Project</a>
               </div>
             </div>
           </div>
-          <div class="col-lg-4">
-            <div class="card mb-4">
+          <div class="col-lg-4 col-md-6">
+            <div class="card mb-4 h-100">
               <div class="card-body">
-                <h5 class="card-title">Arpahak.com</h5>
+                <h5 class="card-title">Mtoun (متون)</h5>
                 <p class="card-text">
-                  E-Commerce website with various sections such as online
-                  marketing, real estate stores, and multiple online payment
-                  methods including Paypal, Fawry, Vodafone Cash, etc.
-                  Technologies used: PHP Laravel.
+                  An education platform with AI-powered recitation verification, Jitsi live streaming, YouTube integration, Firebase notifications, WebSocket-based attendance tracking, and certificate generation. Built with NestJS, Hasura GraphQL, and FastAPI.
                 </p>
-                <a href="#" class="btn btn-primary">View Project</a>
+                <a href="https://mtoun.com/" class="btn btn-primary" target="_blank" rel="noopener noreferrer">View Project</a>
               </div>
             </div>
           </div>
-          <div class="col-lg-4">
-            <div class="card mb-4">
+          <div class="col-lg-4 col-md-6">
+            <div class="card mb-4 h-100">
               <div class="card-body">
-                <h5 class="card-title">Egy Reels</h5>
+                <h5 class="card-title">SaladBar Meals</h5>
                 <p class="card-text">
-                  A project aimed at promoting the best Egyptian foods and
-                  places to boost the economy. Technologies used: Laravel.
+                  An innovative platform to streamline access to fresh salads and healthy meals through vending machines across Saudi Arabia. Integrates with SaladBar vending machines, third-party Chinese systems, and Flutter mobile app. Features real-time menu updates and subscription management via PHP Laravel APIs.
                 </p>
-                <a href="#" class="btn btn-primary">View Project</a>
+                <a href="https://saladbar.sa" class="btn btn-primary" target="_blank" rel="noopener noreferrer">View Project</a>
               </div>
             </div>
           </div>
-          <div class="col-lg-4">
-            <div class="card mb-4">
+          <div class="col-lg-4 col-md-6">
+            <div class="card mb-4 h-100">
               <div class="card-body">
-                <h5 class="card-title">Lavie</h5>
+                <h5 class="card-title">Inearby App</h5>
                 <p class="card-text">
-                  REST API for plants and seeds, with interactive communities
-                  and blogs to motivate users to engage in plant-related
-                  activities. Technologies used: Node.js.
+                  Real-time gaming platform connecting players through nearby location technology. Built from scratch with Node.js/NestJS, OTP authentication, matchmaking algorithms, WebSocket gameplay, and Dockerized deployment with Nginx.
                 </p>
-                <a href="#" class="btn btn-primary">View Project</a>
               </div>
             </div>
           </div>
-          <div class="col-lg-4">
-            <div class="card mb-4">
+          <div class="col-lg-4 col-md-6">
+            <div class="card mb-4 h-100">
+              <div class="card-body">
+                <h5 class="card-title">Flore</h5>
+                <p class="card-text">
+                  Floral product management system with React Native mobile app and web admin panel. PHP Laravel MVC architecture, RESTful APIs, and secure payment gateway integrations for real-time order tracking.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="card mb-4 h-100">
+              <div class="card-body">
+                <h5 class="card-title">GameWise</h5>
+                <p class="card-text">
+                  Interactive gaming platform with real-time progress tracking, customizable settings, and subscription models. PHP Laravel MVC with API-based interactions, Flutter mobile app, and responsive admin panel.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="card mb-4 h-100">
+              <div class="card-body">
+                <h5 class="card-title">Family Tree System</h5>
+                <p class="card-text">
+                  Platform for documenting and visualizing family relationships with bilingual support (Arabic/English). Interactive tree view, RESTful APIs for Flutter mobile app, and scalable relational database with PHP Laravel and MySQL.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="card mb-4 h-100">
+              <div class="card-body">
+                <h5 class="card-title">Souq App</h5>
+                <p class="card-text">
+                  Scalable e-commerce platform designed as single-vendor with flexibility to become multi-vendor marketplace. Flutter mobile app, PHP Laravel MVC backend, and responsive admin panel with Bootstrap/jQuery.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="card mb-4 h-100">
+              <div class="card-body">
+                <h5 class="card-title">La Vie</h5>
+                <p class="card-text">
+                  Complete platform for plant enthusiasts with product management, community forums, quizzes, and admin dashboard. NestJS, MySQL with Prisma ORM, JWT/OAuth authentication, Swagger docs, deployed on Google Cloud with Docker.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="card mb-4 h-100">
               <div class="card-body">
                 <h5 class="card-title">Petology</h5>
                 <p class="card-text">
-                  Back End API application created using NestJS to connect pets
-                  and people, promoting care and attentionto pets. Technologies
-                  used: Node.js, NestJS.
+                  Backend system for managing homeless animal shelters — streamlining animal management, adoption requests, and shelter operations. LoopBack 4, MySQL, JWT/OAuth, role-based access control, and Dockerized deployment.
                 </p>
-                <a href="#" class="btn btn-primary">View Project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="certifications" class="bg-light py-5">
+      <div class="container">
+        <h2 class="mb-4">Certifications</h2>
+        <div class="row">
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="card mb-3">
+              <div class="card-body">
+                <h6 class="card-title">CCNA: Enterprise Networking</h6>
+                <p class="card-text small text-muted">Cisco · Jan 2022</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="card mb-3">
+              <div class="card-body">
+                <h6 class="card-title">CyberOps Associate</h6>
+                <p class="card-text small text-muted">Cisco · May 2022</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="card mb-3">
+              <div class="card-body">
+                <h6 class="card-title">Network Security</h6>
+                <p class="card-text small text-muted">Cisco · Jun 2022</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="card mb-3">
+              <div class="card-body">
+                <h6 class="card-title">Cloud &amp; Virtualization</h6>
+                <p class="card-text small text-muted">VMware · Mar 2022</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="card mb-3">
+              <div class="card-body">
+                <h6 class="card-title">Professional Agile Scrum Master</h6>
+                <p class="card-text small text-muted">Orange Digital Center · Sep 2022</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="card mb-3">
+              <div class="card-body">
+                <h6 class="card-title">Back End PHP Laravel</h6>
+                <p class="card-text small text-muted">ITI · Jun 2022</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="card mb-3">
+              <div class="card-body">
+                <h6 class="card-title">Network &amp; Information Security</h6>
+                <p class="card-text small text-muted">NTI · Mar 2022</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="card mb-3">
+              <div class="card-body">
+                <h6 class="card-title">GDSC Core Team Member</h6>
+                <p class="card-text small text-muted">Google Developers · Jul 2022</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="card mb-3">
+              <div class="card-body">
+                <h6 class="card-title">Back End Hackathon Winner</h6>
+                <p class="card-text small text-muted">Orange Digital Center · Sep 2022</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="card mb-3">
+              <div class="card-body">
+                <h6 class="card-title">Network Hackathon Winner</h6>
+                <p class="card-text small text-muted">Orange Digital Center · Sep 2022</p>
               </div>
             </div>
           </div>
@@ -299,25 +472,35 @@
         </p>
         <p>
           LinkedIn:
-          <a href="https://www.linkedin.com/in/hassangomaaeng/"
-            >https://www.linkedin.com/in/hassangomaaeng/</a
-          >
+          <a href="https://www.linkedin.com/in/hassangomaaeng/" target="_blank" rel="noopener noreferrer">linkedin.com/in/hassangomaaeng</a>
         </p>
         <p>
           GitHub:
-          <a href="https://github.com/hassangomaa"
-            >https://github.com/hassangomaa</a
-          >
+          <a href="https://github.com/hassangomaa" target="_blank" rel="noopener noreferrer">github.com/hassangomaa</a>
+        </p>
+        <p>
+          Portfolio:
+          <a href="https://hassan-gomaa-eng.vercel.app/" target="_blank" rel="noopener noreferrer">hassan-gomaa-eng.vercel.app</a>
+        </p>
+        <p>
+          WhatsApp:
+          <a href="https://wa.me/c/201277785111" target="_blank" rel="noopener noreferrer">+20 1277785111</a>
+        </p>
+        <p>
+          Resume:
+          <a href="https://drive.google.com/file/d/1mXwpgoBJC7MS2IFgHVWP3mrHzbhZK1o6/view" target="_blank" rel="noopener noreferrer">View Resume</a>
         </p>
       </div>
     </section>
+    </main>
 
     <footer class="bg-light text-dark py-3">
       <div class="container text-center">
-        <p>&copy; 2023 Hassan Gomaa. All rights reserved.</p>
+        <p>&copy; <span id="year"></span> Hassan Gomaa. All rights reserved.</p>
       </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
   </body>
 </html>
